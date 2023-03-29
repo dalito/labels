@@ -1,6 +1,6 @@
 # labels
 
-CLI app for managing GitHub labels for Python 3.6 and newer. 📝
+CLI app for managing GitHub labels for Python 3.8 and newer. 📝
 
 ## Installation
 

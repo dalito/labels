@@ -1,0 +1,144 @@
+[breaking]
+name = "breaking"
+color = "ff8c00"
+description = "Changes breaking backward compatibility"
+
+["good first issue"]   # standard label used by github
+name = "good first issue"
+color = "7057ff"
+description = "Tasks to pick up by newcomers"
+
+["duplicate"]
+color = "d1d5db"
+name = "duplicate"
+description = "This issue or pull request already exists."
+
+[question]
+name = "question"
+color = "047857"
+description = "A request for help"
+
+[discussion]
+name = "discussion"
+color = "ecfdf5"
+description = "This needs more discussion"
+
+[dependencies]  # standard label used by bots
+name = "dependencies"
+color = "0969da"
+description = "Pull requests that update a dependency"
+
+["type:Bug"]
+name = "type:Bug"
+color = "ef4444"
+description = "Something is not working as expected."
+
+["type:Feature"]
+name = "type:Feature"
+color = "10b981"
+description = "Request for adding new features"
+
+["type:Enhancement"]
+name = "type:Enhancement"
+color = "93cf5d"
+description = "Request for changing or improving existing features"
+
+["type:Housekeeping"]
+name = "type:Housekeeping"
+color = "bfdbfe"
+description = "Code clean-up or maintenance tasks like updates etc."
+
+["type:User story"]
+name = "type:User story"
+color = "065f46"
+description = "Description of new feature from end-user perspective"
+
+["effort:S <2"]
+name = "effort:S <2"
+color = "fef3c7"
+description = "A small effort is required to solve this."
+
+["effort:M 2..5"]
+name = "effort:M 2..5"
+color = "fde68a"
+description = "A medium effort is required to solve this."
+
+["effort:L 5..13"]
+name = "effort:L 5..13"
+color = "fcd34d"
+description = "A large effort is required to solve this."
+
+["effort:XL 13..34"]
+name = "effort:XL 13..34"
+color = "fcd34d"
+description = "A very large effort is required to solve this."
+
+["effort:Epic"]
+name = "effort:Epic"
+color = "f59e0b"
+description = "This requires an epic effort. Split it up!"
+
+["priority:High"]
+name = "priority:High"
+color = "f87171"
+description = "This issue is urgent and important."
+
+["priority:Low"]
+name = "priority:Low"
+color = "f3f4f6"
+description = "This issue is neither urgent nor important."
+
+["state:Needs decision"]
+name = "state:Needs decision"
+color = "1d4ed8"
+description = "This needs to be decided by maintainers."
+
+["state:Needs review"]
+name = "state:Needs review"
+color = "60a5fa"
+description = "This needs to be reviewed by maintainers."
+
+["state:Needs info"]
+name = "state:Needs info"
+color = "a7f3d0"
+description = "Further information is requested."
+
+["state:Blocked"]
+name = "state:Blocked"
+color = "fca5a5"
+description = "On hold due to another issue or missing external requirement."
+
+["state:Invalid/wontfix"]
+name = "state:Invalid/wontfix"
+color = "d1d5db"
+description = "This is invalid or will not be worked on."
+
+["topic:Tests"]
+name = "topic:Tests"
+color = "93c5fd"
+description = "Testing related work"
+
+["topic:DX"]
+name = "topic:DX"
+color = "6ee7e2"
+description = "Developer experience related like linter, code checker etc."
+
+["topic:UI/UX"]
+name = "topic:UX"
+color = "6ee787"
+description = "User interface or user experience related work"
+
+["topic:Docs"]
+color = "34d399"
+name = "topic:Docs"
+description = "Improvements or additions to documentation"
+
+["topic:Security"]
+name = "topic:Security"
+color = "ef4444"
+description = "Security related work"
+
+["topic:Infra"]
+name = "topic:Infra"
+color = "a7f3d0"
+description = "Tasks related to Docker/CI etc."

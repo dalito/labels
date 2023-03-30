@@ -62,3 +62,6 @@ venv.bak/
 
 # VS code
 .vscode/
+
+# Spyder
+.spyproject

@@ -1,0 +1,79 @@
+# A small set of labels without prefix
+# ...useful if labels for components, effort, priority etc. are not needed.
+
+# Labels that are also used in github's default set
+
+[bug]
+color = "d73a4a"
+name = "bug"
+description = "Something is not working as expected."
+
+[documentation]
+color = "0075ca"
+name = "documentation"
+description = "Improvements or additions to documentation"
+
+[duplicate]
+color = "cfd3d7"
+name = "duplicate"
+description = "This issue or pull request already exists."
+
+[enhancement]
+color = "a2eeef"
+name = "enhancement"
+description = "Request for changing or improving existing features"
+
+["good first issue"]
+color = "7057ff"
+name = "good first issue"
+description = "Good for newcomers"
+
+# Removed from github's default set: ["help wanted"], [invalid]
+
+[question]
+color = "ffd700"
+name = "question"
+description = "A request for help"
+
+["invalid/wontfix"]
+color = "cfd3d7"
+name = "invalid/wontfix"
+description = "This is invalid or will not be worked on."
+
+# Additional labels compared to github's default set
+
+[breaking]
+color = "ff8c00"
+name = "breaking"
+description = "Changes breaking backward compatibility"
+
+[discussion]
+name = "discussion"
+color = "0000cd"
+description = "This needs more discussion"
+
+["housekeeping"]
+name = "housekeeping"
+color = "008b8b"
+description = "Clean-up or maintenance tasks like updates etc."
+
+# ... and few more issue states
+["needs decision"]
+color = "adff2f"
+name = "needs decision"
+description = "This needs to be decided by maintainers."
+
+["needs info"]
+color = "adff2f"
+name = "needs info"
+description = "Further information is requested."
+
+["needs review"]
+color = "adff2f"
+name = "needs review"
+description = "This needs to be reviewed by maintainers."
+
+["blocked"]
+name = "blocked"
+color = "8b0000"
+description = "On hold due to another issue or missing external requirement."

@@ -1,144 +1,154 @@
 [breaking]
 name = "breaking"
-color = "ff8c00"
+color = "ff6b6b"
 description = "Changes breaking backward compatibility"
-
-["good first issue"]   # standard label used by github
-name = "good first issue"
-color = "7057ff"
-description = "Tasks to pick up by newcomers"
-
-["duplicate"]
-color = "d1d5db"
-name = "duplicate"
-description = "This issue or pull request already exists."
-
-[question]
-name = "question"
-color = "047857"
-description = "A request for help"
-
-[discussion]
-name = "discussion"
-color = "ecfdf5"
-description = "This needs more discussion"
 
 [dependencies]  # standard label used by bots
 name = "dependencies"
 color = "0969da"
-description = "Pull requests that update a dependency"
+description = "Pull requests and tasks to update dependencies"
 
-["type:Bug"]
-name = "type:Bug"
-color = "ef4444"
-description = "Something is not working as expected."
+[discussion]
+name = "discussion"
+color = "6ee7e2"
+description = "This needs more discussion."
 
-["type:Feature"]
-name = "type:Feature"
-color = "10b981"
-description = "Request for adding new features"
+["duplicate"]
+name = "duplicate"
+color = "d1d5db"
+description = "This issue or pull request already exists."
 
-["type:Enhancement"]
-name = "type:Enhancement"
-color = "93cf5d"
-description = "Request for changing or improving existing features"
-
-["type:Housekeeping"]
-name = "type:Housekeeping"
-color = "bfdbfe"
-description = "Code clean-up or maintenance tasks like updates etc."
-
-["type:User story"]
-name = "type:User story"
-color = "065f46"
-description = "Description of new feature from end-user perspective"
-
-["effort:S <2"]
-name = "effort:S <2"
+# in gitea effort labels are mutually exclusive (requires using "/" as seperator)
+["effort/ 0...2 S"]
+name = "effort/ 0...2 S"
 color = "fef3c7"
 description = "A small effort is required to solve this."
 
-["effort:M 2..5"]
-name = "effort:M 2..5"
+["effort/ 2...5 M"]
+name = "effort/ 2...5 M"
 color = "fde68a"
 description = "A medium effort is required to solve this."
 
-["effort:L 5..13"]
-name = "effort:L 5..13"
+["effort/ 5...13 L"]
+name = "effort/ 5...13 L"
 color = "fcd34d"
 description = "A large effort is required to solve this."
 
-["effort:XL 13..34"]
-name = "effort:XL 13..34"
+["effort/13...34 XL"]
+name = "effort/13...34 XL"
 color = "fcd34d"
 description = "A very large effort is required to solve this."
 
-["effort:Epic"]
-name = "effort:Epic"
+["effort/epic"]
+name = "effort/epic"
 color = "f59e0b"
 description = "This requires an epic effort. Split it up!"
 
-["priority:High"]
-name = "priority:High"
+["good first issue"]   # standard label used by github
+name = "good first issue"
+color = "c17dcc"
+description = "Tasks to pick up by newcomers"
+
+# in gitea priority labels are mutually exclusive (requires using "/" as seperator)
+["priority/high"]
+name = "priority/high"
 color = "f87171"
 description = "This issue is urgent and important."
 
-["priority:Low"]
-name = "priority:Low"
-color = "f3f4f6"
+["priority/low"]
+name = "priority/low"
+color = "e3e3e3"
 description = "This issue is neither urgent nor important."
 
-["state:Needs decision"]
-name = "state:Needs decision"
-color = "1d4ed8"
-description = "This needs to be decided by maintainers."
+[question]
+name = "Question"
+color = "047857"
+description = "A request for help or a question."
 
-["state:Needs review"]
-name = "state:Needs review"
-color = "60a5fa"
-description = "This needs to be reviewed by maintainers."
-
-["state:Needs info"]
-name = "state:Needs info"
-color = "a7f3d0"
-description = "Further information is requested."
-
-["state:Blocked"]
-name = "state:Blocked"
+# in gitea state labels are mutually exclusive (requires using "/" as seperator)
+["state/blocked"]
+name = "state/blocked"
 color = "fca5a5"
 description = "On hold due to another issue or missing external requirement."
 
-["state:Invalid/wontfix"]
-name = "state:Invalid/wontfix"
+["state/confirmed"]
+name = "state/confirmed"
+color = "d9e9ff"
+description = "This will be addressed. / Bug is confirmed."
+
+["state/invalid-wontfix"]
+name = "state/invalid-wontfix"
 color = "d1d5db"
 description = "This is invalid or will not be worked on."
 
-["topic:Tests"]
-name = "topic:Tests"
-color = "93c5fd"
-description = "Testing related work"
+["state/needs info"]
+name = "state/needs info"
+color = "bbdefb"
+description = "Further information is requested."
 
-["topic:DX"]
-name = "topic:DX"
-color = "6ee7e2"
+["state/needs decision"]
+name = "state/needs decision"
+color = "64b5f6"
+description = "This needs to be decided by maintainers."
+
+["state/needs review"]
+name = "state/needs review"
+color = "2196f3"
+description = "This needs to be reviewed by maintainers."
+
+# in gitea topic labels are mutually exclusive (requires using "/" as seperator)
+["topic/DX"]
+name = "topic/DX"
+color = "cc9b25"
 description = "Developer experience related like linter, code checker etc."
 
-["topic:UI/UX"]
-name = "topic:UX"
-color = "6ee787"
+["topic/UI & UX"]
+name = "topic/UI & UX"
+color = "f5dd9d"
 description = "User interface or user experience related work"
 
-["topic:Docs"]
-color = "34d399"
-name = "topic:Docs"
+["topic/docs"]
+name = "topic/docs"
+color = "efeac5"
 description = "Improvements or additions to documentation"
 
-["topic:Security"]
-name = "topic:Security"
-color = "ef4444"
-description = "Security related work"
-
-["topic:Infra"]
-name = "topic:Infra"
-color = "a7f3d0"
+["topic/infra"]
+name = "topic/infra"
+color = "bcc499"
 description = "Tasks related to Docker/CI etc."
+
+["topic/security"]
+name = "topic/security"
+color = "e11d21"
+description = "Security related"
+
+["topic/testing"]
+name = "topic/testing"
+color = "92a68a"
+description = "Testing related tasks"
+
+# in gitea type labels are mutually exclusive (requires using "/" as seperator)
+["type/bug"]
+name = "type/bug"
+color = "e11d21"
+description = "Something is not working as expected."
+
+["type/enhancement"]
+name = "type/enhancement"
+color = "4caf50"
+description = "Request for changing or improving existing feature."
+
+["type/feature"]
+name = "type/feature"
+color = "81c784"
+description = "Request for adding a new feature"
+
+["type/housekeeping"]
+name = "type/housekeeping"
+color = "c8e6c9"
+description = "Code clean-up or maintenance tasks like updates etc."
+
+["type/user story"]
+name = "type/user story"
+color = "065f46"
+description = "Description of new feature from end-user perspective"

@@ -33,7 +33,7 @@ description = "Good for newcomers"
 [question]
 color = "ffd700"
 name = "question"
-description = "A request for help"
+description = "A request for help or a question."
 
 ["invalid/wontfix"]
 color = "cfd3d7"
@@ -50,7 +50,7 @@ description = "Changes breaking backward compatibility"
 [discussion]
 name = "discussion"
 color = "0000cd"
-description = "This needs more discussion"
+description = "This needs more discussion."
 
 ["housekeeping"]
 name = "housekeeping"
